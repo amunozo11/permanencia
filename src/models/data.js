@@ -69,7 +69,6 @@ const permanenciaData = [
       cumplimiento_requisitos: true,
       servicio: "POA",
     },
-    // Puedes agregar más datos del CSV aquí
   ]
   
   export default permanenciaData
