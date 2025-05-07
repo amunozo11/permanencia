@@ -1,0 +1,76 @@
+// Datos actualizados para el sistema de permanencia estudiantil
+const permanenciaData = [
+    {
+      periodo: "2020-1",
+      programa: "Ingeniería de Sistemas",
+      inscritos: 120,
+      matriculados: 110,
+      desertores: 10,
+      graduados: 8,
+      edad_promedio: 21,
+      estrato: 2,
+    },
+    {
+      periodo: "2020-2",
+      programa: "Ingeniería de Sistemas",
+      inscritos: 130,
+      matriculados: 115,
+      desertores: 12,
+      graduados: 7,
+      edad_promedio: 22,
+      estrato: 2,
+    },
+    {
+      periodo: "2020-2",
+      programa: "Administración de Empresas",
+      inscritos: 140,
+      matriculados: 125,
+      desertores: 15,
+      graduados: 10,
+      edad_promedio: 23,
+      estrato: 3,
+    },
+    {
+      periodo: "2020-2",
+      programa: "Derecho",
+      inscritos: 135,
+      matriculados: 120,
+      desertores: 13,
+      graduados: 9,
+      edad_promedio: 24,
+      estrato: 3,
+    },
+    {
+      periodo: "2020-2",
+      programa: "Sociología",
+      inscritos: 128,
+      matriculados: 118,
+      desertores: 10,
+      graduados: 6,
+      edad_promedio: 22,
+      estrato: 1,
+    },
+    // Datos adicionales basados en el CSV proporcionado
+    {
+      periodo: "2021-1",
+      programa: "Literatura en Artes",
+      inscritos: 95,
+      matriculados: 85,
+      desertores: 8,
+      graduados: 5,
+      edad_promedio: 20,
+      estrato: 4,
+      riesgo_desercion: "Medio",
+      tipo_vulnerabilidad: "ACADEMICA",
+      requiere_tutoria: false,
+      tipo_intervencion: "Otros",
+      condicion_socioeconomica: "Medio",
+      aprobado: false,
+      cumplimiento_requisitos: true,
+      servicio: "POA",
+    },
+    // Puedes agregar más datos del CSV aquí
+  ]
+  
+  export default permanenciaData
+  
