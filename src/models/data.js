@@ -1,4 +1,3 @@
-// Datos actualizados para el sistema de permanencia estudiantil
 const permanenciaData = [
     {
       periodo: "2020-1",
@@ -50,7 +49,6 @@ const permanenciaData = [
       edad_promedio: 22,
       estrato: 1,
     },
-    // Datos adicionales basados en el CSV proporcionado
     {
       periodo: "2021-1",
       programa: "Literatura en Artes",
