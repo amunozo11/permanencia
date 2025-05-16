@@ -30,6 +30,11 @@ export default function ServiciosPermanencia() {
         descripcion: "Monitoreo del rendimiento académico para identificar estudiantes en riesgo de deserción.",
         icono: "📊",
       },
+        {
+        nombre: "Comedor Universitario",
+        descripcion: "Brindar alimentación a estudiantes con vulneración económica.",
+        icono: "🍽️",
+      },
     ]
   
     return (
