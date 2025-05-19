@@ -24,13 +24,13 @@ const tipoIntervencionOpciones = ["Asesoría", "Taller", "Otro"]
 export default function ServiciosPermanencia() {
   const servicios = [
     {
-      nombre: "Tutorías Académicas (POA)",
+      nombre: "Programa de Orientación Académica (POA)",
       descripcion: "Registro de tutorías y acompañamiento académico.",
       icono: "📚",
       key: "tutoria"
     },
     {
-      nombre: "Asesoría Psicológica (POPS)",
+      nombre: "Programa de Orientación Psicosocial (POPS)",
       descripcion: "Registro de atención y seguimiento psicosocial.",
       icono: "🧠",
       key: "psicologia"
@@ -42,7 +42,7 @@ export default function ServiciosPermanencia() {
       key: "apoyo"
     },
     {
-      nombre: "Orientación Vocacional (POVAU)",
+      nombre: "Programa de Orientación Vocacional y Adaptación Universitaria (POVAU)",
       descripcion: "Registro de orientación vocacional y seguimiento.",
       icono: "🧭",
       key: "vocacional"
