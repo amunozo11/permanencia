@@ -2,6 +2,8 @@
 const STORAGE_KEYS = {
     PERMANENCIA_DATA: "permanencia_data",
     LAST_UPDATE: "permanencia_last_update",
+    API_INSERT: "https://temporal.codersdevs.com.co/leer_datos.php",
+    API_READ: "https://temporal.codersdevs.com.co/insertar_datos.php",
   }
   
   // Guardar datos en localStorage

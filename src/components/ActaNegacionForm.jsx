@@ -104,7 +104,7 @@ const handleChange = (e) => {
     }
 
     try {
-      const res = await fetch("https://permanencia.infinityfreeapp.com/PostFormularioAsistencia.php", {
+      const res = await fetch('/api/acta_negacion.php', {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams(formData).toString(),

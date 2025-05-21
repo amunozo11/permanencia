@@ -26,7 +26,7 @@ const AsistenciaPsicologica = () => {
 
     try {
       const res = await fetch(
-        "https://permanencia.infinityfreeapp.com/PostFormularioAsistencia.php",
+        "/api/PostRemisionPsicologica.php",
         {
           method: "POST",
           headers: {
