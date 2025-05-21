@@ -9,11 +9,11 @@ export default function AppRouter() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-<<<<<<< HEAD
-        <Route path="/borrador" element={<BorradorActa />} />
-=======
-        <Route path="/psicologia" element={<Psicológica />} />
->>>>>>> a49cf763a0b1ff2ef30566fd9f306834c9da377f
+
+       <Route path="/borrador" element={<BorradorActa />} />
+
+       <Route path="/psicologia" element={<Psicológica />} />
+
       </Routes>
     </Router>
   );
